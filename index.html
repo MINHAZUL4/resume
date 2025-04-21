@@ -2,127 +2,145 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>MD MINHAZUL ISLAM | Resume</title>
   <style>
+    * {
+      box-sizing: border-box;
+    }
     body {
-      font-family: Arial, sans-serif;
       margin: 0;
-      padding: 0 1rem;
-      background: #f4f4f4;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f9f9f9;
       color: #333;
+      line-height: 1.6;
     }
     .container {
       max-width: 900px;
-      margin: auto;
+      margin: 2rem auto;
       background: #fff;
       padding: 2rem;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
-      border-radius: 10px;
+      border-radius: 8px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
     }
-    h1, h2, h3 {
-      color: #222;
+    header {
+      text-align: center;
+      margin-bottom: 1.5rem;
     }
-    h1 {
-      margin-bottom: 0;
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
     }
-    .subtitle {
-      font-size: 1.1rem;
-      margin-top: 0;
+    header p {
       color: #777;
     }
-    .section {
-      margin-top: 2rem;
+    section {
+      margin-bottom: 2rem;
     }
-    .contact a {
-      display: inline-block;
-      margin-right: 1rem;
-      color: #0066cc;
-      text-decoration: none;
+    h2 {
+      color: #00509e;
+      margin-bottom: 0.5rem;
+      border-bottom: 1px solid #ddd;
+      padding-bottom: 0.3rem;
+    }
+    h3 {
+      margin: 0.6rem 0 0.2rem;
+      color: #333;
     }
     ul {
-      padding-left: 20px;
+      padding-left: 1.2rem;
     }
-    .skill-list, .edu-list {
-      list-style-type: disc;
+    .info-line {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      font-size: 0.95rem;
+      color: #555;
+    }
+    a {
+      color: #00509e;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
     }
     @media (max-width: 600px) {
-      body {
-        padding: 1rem;
+      .info-line {
+        flex-direction: column;
       }
     }
   </style>
 </head>
 <body>
   <div class="container">
-    <h1>MD. MINHAZUL ISLAM</h1>
-    <p class="subtitle">Aspiring Engineer</p>
+    <header>
+      <h1>MD. MINHAZUL ISLAM</h1>
+      <p>Aspiring Engineer</p>
+      <div class="info-line">
+        <span>📍 Dhaka, Bangladesh</span>
+        <span>📧 <a href="mailto:iamanik8991@gmail.com">iamanik8991@gmail.com</a></span>
+        <span>📞 01629721750</span>
+        <span>💼 <a href="https://github.com/minhazul01" target="_blank">@minhazul01</a></span>
+      </div>
+    </header>
 
-    <div class="section contact">
-      <h2>Contact</h2>
-      <p>Email: <a href="mailto:iamanik8991@gmail.com">iamanik8991@gmail.com</a></p>
-      <p>Phone: 01629721750</p>
-      <p>Location: Dhaka, Bangladesh</p>
-      <p>GitHub: <a href="https://github.com/minhazul01" target="_blank">@minhazul01</a></p>
-    </div>
-
-    <div class="section">
+    <section>
       <h2>Professional Experience</h2>
 
-      <h3>Site Engineer (Electrical)</h3>
-      <p>Jafrin Enterprise | Dec 2020 – Sep 2024 | Dhaka, Bangladesh</p>
+      <h3>Site Engineer (Electrical) – Jafrin Enterprise</h3>
+      <p><em>Dec 2020 – Sep 2024 | Dhaka, Bangladesh</em></p>
       <ul>
-        <li>Supervised electrical installations and ensured compliance with safety standards on various construction projects.</li>
-        <li>Managed teams of electricians and coordinated with other contractors for smooth project execution.</li>
-        <li>Performed troubleshooting and maintenance of electrical systems.</li>
-        <li>Assisted in designing electrical layouts and interpreting technical drawings.</li>
-        <li>Conducted quality inspections and testing to ensure high standards of electrical work.</li>
+        <li>Supervised electrical installations ensuring safety compliance across multiple construction sites.</li>
+        <li>Managed electricians and coordinated with contractors for seamless project execution.</li>
+        <li>Troubleshot and maintained electrical systems to ensure smooth operations.</li>
+        <li>Helped design electrical layouts and interpreted technical blueprints.</li>
+        <li>Performed quality inspections and electrical system testing.</li>
       </ul>
 
-      <h3>Trainee Engineer</h3>
-      <p>Chittagong Power Station (BPDB) | Dec 2019 – Apr 2020</p>
+      <h3>Trainee Engineer – Chittagong Power Station (BPDB)</h3>
+      <p><em>Dec 2019 – Apr 2020</em></p>
       <ul>
-        <li>Gained knowledge about steam power plants and electrical operations.</li>
-        <li>Assisted with maintenance of generator motors and transformer testing.</li>
-        <li>Worked on three-phase motor winding and control.</li>
-        <li>Helped monitor and control the power grid.</li>
+        <li>Acquired experience in steam power plant operations.</li>
+        <li>Assisted in maintenance of generator motors and transformer testing.</li>
+        <li>Worked with three-phase motor winding and control.</li>
+        <li>Helped monitor and manage the power grid.</li>
       </ul>
-    </div>
+    </section>
 
-    <div class="section">
+    <section>
       <h2>Education</h2>
 
       <h3>B.Sc in Electrical and Electronic Engineering</h3>
-      <p>Daffodil International University | CGPA: 3.31 | Dhaka, Bangladesh</p>
+      <p><em>Daffodil International University | CGPA: 3.31</em></p>
       <p><strong>Thesis:</strong> Gallium Oxide - The Future of Power Electronics</p>
 
       <h3>Diploma in Electrical Engineering</h3>
-      <p>Feni Govt. Technical School & College | Aug 2016 – Apr 2020 | CGPA: 3.10 | Feni, Bangladesh</p>
+      <p><em>Feni Govt. Technical School & College | CGPA: 3.10 | Aug 2016 – Apr 2020</em></p>
       <ul>
-        <li>Studied transformers, generators, and motors extensively.</li>
-        <li>Learned digital electronics, microprocessors, and circuit design.</li>
+        <li>Studied transformers, generators, motors, circuits, and microprocessors.</li>
+        <li>Developed hands-on skills in electrical wiring and maintenance.</li>
       </ul>
-    </div>
+    </section>
 
-    <div class="section">
+    <section>
       <h2>Skills Summary</h2>
-      <ul class="skill-list">
-        <li>Electrical installation & maintenance</li>
-        <li>Three-phase motor control</li>
-        <li>Transformer testing</li>
-        <li>Reading technical drawings</li>
-        <li>Microsoft Office</li>
-        <li>Teamwork & Communication</li>
-        <li>Bijoy Bangla typing</li>
+      <ul>
+        <li>Electrical Installation & Maintenance</li>
+        <li>Three-phase Motor Control</li>
+        <li>Transformer Testing & Troubleshooting</li>
+        <li>Reading Technical Drawings</li>
+        <li>Microsoft Office Suite</li>
+        <li>Team Collaboration & Communication</li>
+        <li>Bijoy Bangla Typing</li>
       </ul>
-    </div>
+    </section>
 
-    <div class="section">
+    <section>
       <h2>Voluntary Work</h2>
       <ul>
-        <li>Completed cabling of two buildings from scratch</li>
+        <li>Executed complete cabling installations for two residential buildings from scratch.</li>
       </ul>
-    </div>
+    </section>
   </div>
 </body>
 </html>
